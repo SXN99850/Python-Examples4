@@ -28,6 +28,7 @@ regressor.fit(X_Training, Y_Training)
 Y_Predict = regressor.predict(X_Testing)
 
 #calculating mean_squared_error using the available method from sklearn metrics
+# Mean Squared Error measures how close a regression line is to a set of data points
 print("Mean squared error", mean_squared_error(Y_Testing,Y_Predict))
 
 #Scatterplot for Training Data
