@@ -46,7 +46,7 @@ print(km.fit(x))
 #apply a trained model to data.
 y_cluster_kmeans = km.predict(x)
 from sklearn import metrics, preprocessing
-#importing metrics to find silhouette score
+#importing sklearn metrics to find silhouette score
 score = metrics.silhouette_score(x, y_cluster_kmeans)
 print('Silhouette score:',score)
 

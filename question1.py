@@ -6,7 +6,7 @@ from sklearn.metrics import mean_squared_error
 import seaborn as sns
 
 #For data visualisation using seaborn sns.set() method
-sns.set(style="white", color_codes=True)
+sns.set(style="darkgrid", color_codes=True)
 
 import warnings
 warnings.filterwarnings("ignore")
